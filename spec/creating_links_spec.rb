@@ -14,9 +14,7 @@ feature 'creating links' do
         expect(page).to have_content('Makers Academy')
       end
 
-      within 'ul#links' do
-        expect(page).to have_content('Programming')
-      end
+      
 
   end
 
