@@ -7,6 +7,11 @@
     URL: <%= link.url %>
   </li>
     <% end %>
+    <% @tags.each do |tag| %>
+  <li>
+      Tag: <%= tag.title %>
+  </li>
+    <% end %>
 </ul>
 
 
