@@ -1,7 +1,6 @@
 feature 'creating links' do
 
   scenario 'I can create a new link' do
-
       visit '/add_link'
       fill_in 'title', with: 'Makers Academy'
       fill_in 'url', with: 'http//www.makersacademy.com'

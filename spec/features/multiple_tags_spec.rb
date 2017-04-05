@@ -1,7 +1,6 @@
 feature 'add multiple tags' do
 
   scenario 'user can add a second tag' do
-
     visit '/add_link'
     fill_in 'title', with: 'Makers Academy'
     fill_in 'url', with: 'http//www.makersacademy.com'
